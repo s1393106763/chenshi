@@ -1,0 +1,28 @@
+{
+  "name": "chenshi",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "chenshi",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "pabbi",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s1393106763/chenshi"
+  },
+  "dependencies": {
+    "@chenshi/utils": "^1.0.2"
+  }
+}

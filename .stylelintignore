@@ -1,0 +1,4 @@
+**.d.ts
+/packages/chenshi
+dist
+node_modules
