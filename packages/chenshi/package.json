@@ -23,6 +23,6 @@
     "url": "https://github.com/s1393106763/chenshi"
   },
   "dependencies": {
-    "@chenshi/utils": "^1.0.2"
+    "@chenshi/utils": "workspace:^1.0.0"
   }
 }

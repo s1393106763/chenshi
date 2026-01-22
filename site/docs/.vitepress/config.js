@@ -1,48 +1,50 @@
 export default {
-  title: 'Chenshi',
   base: process.env.NODE_ENV === 'production' ? '/chenshi/' : '/',
   themeConfig: {
-    nav: [{ text: '文档', link: '/guild/introduce' }],
+    siteTitle: "vitepress",
+    nav: [
+      { text: "指南", link: "/guild/installation" },
+      { text: "组件", link: "/components/button/" },
+    ],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/s1393106763/chenshi" },
+    ],
     sidebar: {
-      '/': [
+      "/guild/": [
         {
-          text: '引入',
+          text: "基础",
           items: [
             {
-              text: '介绍',
-              link: '/guild/introduce'
+              text: "安装",
+              link: "/guild/installation",
             },
             {
-              text: '快速开始',
-              link: '/guild/quickstart'
-            }
-          ]
+              text: "快速开始",
+              link: "/guild/quickstart",
+            },
+          ],
         },
         {
-          text: '开发',
+          text: "进阶",
           items: [
             {
-              text: '目录结构',
-              link: '/develop/'
+              text: "xx",
+              link: "/xx",
             },
+          ],
+        },
+      ],
+      "/components/": [
+        {
+          text: "基础组件",
+          items: [
             {
-              text: '组件开发',
-              link: '/develop/component'
-            },
-            {
-              text: '全局组件',
-              link: '/develop/global'
-            },
-
-            {
-              text: '打包发布',
-              link: '/develop/build'
+              text: "Button",
+              link: "/components/button",
             }
-          ]
+          ],
         }
       ]
-    },
-
-    socialLinks: [{ icon: 'github', link: 'https://github.com/s1393106763/chenshi' }]
-  }
+    },  
+  },
 };

@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./app.d6872945.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guild/introduce.md"}'),o={name:"guild/introduce.md"};function a(c,n,s,d,i,p){return t(),r("div")}const l=e(o,[["render",a]]);export{u as __pageData,l as default};
