@@ -48,14 +48,16 @@ const promptsOptions = [
     name: 'template',
     message: '请选择一个模板',
     choices: [
-      { title: 'chenshi', value: 1 }
+      { title: 'kitty-ui', value: 1 },
+      { title: 'chenshi', value: 2 }
     ]
   }
 ];
 const options = commandLineArgs(optionDefinitions);
 
 const remoteList = {
-  1: 'https://gitee.com/s1393106763/chenshi.git'
+  1: 'https://gitee.com/geeksdidi/kittyui.git',
+  2: 'https://github.com/s1393106763/chenshi.git'
 };
 const getUserInfo = async () => {
   const res = await prompts(promptsOptions);
