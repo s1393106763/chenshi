@@ -18,6 +18,12 @@
   "license": "MIT",
   "description": "",
   "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/s1393106763/chenshi"

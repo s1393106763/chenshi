@@ -1,12 +1,17 @@
 {
   "name": "create-chenshi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "create-chenshi": "index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "publishConfig": {
+  "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "chalk": "^5.6.2",
     "command-line-args": "^6.0.1",

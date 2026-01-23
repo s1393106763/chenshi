@@ -57,7 +57,7 @@ const options = commandLineArgs(optionDefinitions);
 
 const remoteList = {
   1: 'https://gitee.com/geeksdidi/kittyui.git',
-  2: 'https://github.com/s1393106763/chenshi.git'
+  2: 'https://github.com/s1393106763/chenshi.git#main'
 };
 const getUserInfo = async () => {
   const res = await prompts(promptsOptions);
