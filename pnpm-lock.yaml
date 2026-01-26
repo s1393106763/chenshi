@@ -131,7 +131,7 @@ importers:
 
   packages/chenshi:
     dependencies:
-      '@chenshi/utils':
+      '@chenshi1/utils':
         specifier: workspace:^1.0.0
         version: link:../utils
 
@@ -158,7 +158,7 @@ importers:
 
   packages/components:
     dependencies:
-      '@chenshi/utils':
+      '@chenshi1/utils':
         specifier: workspace:^1.0.0
         version: link:../utils
     devDependencies:

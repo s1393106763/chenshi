@@ -1,8 +1,12 @@
 {
-  "name": "@chenshi/utils",
+  "name": "@chenshi1/utils",
   "version": "1.0.0",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "description": "",
   "keywords": [],
   "files": [

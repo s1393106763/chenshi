@@ -1,6 +1,6 @@
 {
   "name": "chenshi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -29,6 +29,6 @@
     "url": "https://github.com/s1393106763/chenshi"
   },
   "dependencies": {
-    "@chenshi/utils": "workspace:^1.0.0"
+    "@chenshi1/utils": "workspace:^1.0.0"
   }
 }

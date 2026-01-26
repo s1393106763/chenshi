@@ -46,6 +46,10 @@
       <chenshi-button size="small">Small</chenshi-button>
       <chenshi-button size="mini">Mini</chenshi-button>
     </section>
+    <section>
+      <h3>自定义图标</h3>
+      <Table></Table>
+    </section>
   </div>
 </template>
 

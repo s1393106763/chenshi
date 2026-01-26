@@ -1,0 +1,42 @@
+.chenshi-table {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ebeef5;
+  box-sizing: border-box;
+
+  &__inner {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+    thead {
+      background-color: #f5f7fa;
+      color: #909399;
+      font-weight: 500;
+
+      th {
+        padding: 12px 8px;
+        border-bottom: 1px solid #ebeef5;
+      }
+    }
+
+    tbody {
+      color: #606266;
+
+      tr {
+        &:hover {
+          background-color: #f5f7fa;
+        }
+
+        td {
+          padding: 12px 8px;
+          border-bottom: 1px solid #ebeef5;
+        }
+
+        &:last-child td {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
