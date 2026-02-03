@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chenshi1/utils": "workspace:^1.0.0"
+    "@chenshi1/utils": "workspace:^1.0.0",
+    "xgplayer": "^3.0.23",
+    "xgplayer-hls": "^3.0.23"
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.29.2"

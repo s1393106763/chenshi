@@ -6,14 +6,16 @@
 
 使用 `type` 属性来定义按钮的类型。
 
-<div class="demo-block">
-  <chenshi-button>Default</chenshi-button>
-  <chenshi-button type="primary">Primary</chenshi-button>
-  <chenshi-button type="success">Success</chenshi-button>
-  <chenshi-button type="info">Info</chenshi-button>
-  <chenshi-button type="warning">Warning</chenshi-button>
-  <chenshi-button type="danger">Danger</chenshi-button>
-</div>
+<ClientOnly>
+  <div class="demo-block">
+    <chenshi-button>Default</chenshi-button>
+    <chenshi-button type="primary">Primary</chenshi-button>
+    <chenshi-button type="success">Success</chenshi-button>
+    <chenshi-button type="info">Info</chenshi-button>
+    <chenshi-button type="warning">Warning</chenshi-button>
+    <chenshi-button type="danger">Danger</chenshi-button>
+  </div>
+</ClientOnly>
 
 ```html
 <chenshi-button>Default</chenshi-button>
@@ -28,14 +30,16 @@
 
 使用 `plain` 属性来定义朴素按钮。
 
-<div class="demo-block">
-  <chenshi-button plain>Default</chenshi-button>
-  <chenshi-button type="primary" plain>Primary</chenshi-button>
-  <chenshi-button type="success" plain>Success</chenshi-button>
-  <chenshi-button type="info" plain>Info</chenshi-button>
-  <chenshi-button type="warning" plain>Warning</chenshi-button>
-  <chenshi-button type="danger" plain>Danger</chenshi-button>
-</div>
+<ClientOnly>
+  <div class="demo-block">
+    <chenshi-button plain>Default</chenshi-button>
+    <chenshi-button type="primary" plain>Primary</chenshi-button>
+    <chenshi-button type="success" plain>Success</chenshi-button>
+    <chenshi-button type="info" plain>Info</chenshi-button>
+    <chenshi-button type="warning" plain>Warning</chenshi-button>
+    <chenshi-button type="danger" plain>Danger</chenshi-button>
+  </div>
+</ClientOnly>
 
 ```html
 <chenshi-button plain>Default</chenshi-button>
@@ -46,11 +50,13 @@
 
 使用 `round` 属性来定义圆角按钮。
 
-<div class="demo-block">
-  <chenshi-button round>Default</chenshi-button>
-  <chenshi-button type="primary" round>Primary</chenshi-button>
-  <chenshi-button type="success" round>Success</chenshi-button>
-</div>
+<ClientOnly>
+  <div class="demo-block">
+    <chenshi-button round>Default</chenshi-button>
+    <chenshi-button type="primary" round>Primary</chenshi-button>
+    <chenshi-button type="success" round>Success</chenshi-button>
+  </div>
+</ClientOnly>
 
 ```html
 <chenshi-button round>Default</chenshi-button>
@@ -61,10 +67,12 @@
 
 使用 `disabled` 属性来定义按钮是否可用。
 
-<div class="demo-block">
-  <chenshi-button disabled>Disabled</chenshi-button>
-  <chenshi-button type="primary" disabled>Disabled</chenshi-button>
-</div>
+<ClientOnly>
+  <div class="demo-block">
+    <chenshi-button disabled>Disabled</chenshi-button>
+    <chenshi-button type="primary" disabled>Disabled</chenshi-button>
+  </div>
+</ClientOnly>
 
 ```html
 <chenshi-button disabled>Disabled</chenshi-button>
@@ -74,10 +82,12 @@
 
 使用 `loading` 属性来定义按钮是否显示加载状态。
 
-<div class="demo-block">
-  <chenshi-button loading>Loading</chenshi-button>
-  <chenshi-button type="primary" loading>Loading</chenshi-button>
-</div>
+<ClientOnly>
+  <div class="demo-block">
+    <chenshi-button loading>Loading</chenshi-button>
+    <chenshi-button type="primary" loading>Loading</chenshi-button>
+  </div>
+</ClientOnly>
 
 ```html
 <chenshi-button loading>Loading</chenshi-button>
@@ -87,12 +97,14 @@
 
 使用 `size` 属性来定义按钮的尺寸。
 
-<div class="demo-block">
-  <chenshi-button size="large">Large</chenshi-button>
-  <chenshi-button size="normal">Normal</chenshi-button>
-  <chenshi-button size="small">Small</chenshi-button>
-  <chenshi-button size="mini">Mini</chenshi-button>
-</div>
+<ClientOnly>
+  <div class="demo-block">
+    <chenshi-button size="large">Large</chenshi-button>
+    <chenshi-button size="normal">Normal</chenshi-button>
+    <chenshi-button size="small">Small</chenshi-button>
+    <chenshi-button size="mini">Mini</chenshi-button>
+  </div>
+</ClientOnly>
 
 ```html
 <chenshi-button size="large">Large</chenshi-button>

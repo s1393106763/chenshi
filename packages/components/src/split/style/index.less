@@ -1,0 +1,61 @@
+.cs-split {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  &.is-horizontal {
+    flex-direction: row;
+    .cs-split__trigger {
+      width: 6px;
+      cursor: col-resize;
+      background: #f0f0f0;
+      &:hover {
+        background: #e0e0e0;
+      }
+    }
+    .cs-split__trigger-line {
+      width: 1px;
+      height: 30px;
+      background: #ccc;
+    }
+  }
+
+  &.is-vertical {
+    flex-direction: column;
+    .cs-split__trigger {
+      height: 6px;
+      cursor: row-resize;
+      background: #f0f0f0;
+      &:hover {
+        background: #e0e0e0;
+      }
+    }
+    .cs-split__trigger-line {
+      height: 1px;
+      width: 30px;
+      background: #ccc;
+    }
+  }
+
+  &__first, &__second {
+    overflow: auto;
+  }
+
+  &__second {
+    flex: 1;
+  }
+
+  &__trigger {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+
+    &:hover .cs-split__trigger-line {
+      background: #409eff;
+    }
+  }
+}

@@ -7,8 +7,15 @@
 import * as components from './index';
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    EaButton: typeof components.Button;
-    EaIcon: typeof components.Icon;
+    CsButton: typeof components.Button;
+    CsHeader: typeof components.Header;
+    CsImageViewer: typeof components.ImageViewer;
+    CsLoading: typeof components.Loading;
+    CsDialog: typeof components.Dialog;
+    CsToast: typeof components.Toast;
+    CsLayout: typeof components.Layout;
+    CsSplit: typeof components.Split;
+    CsVideoPlayer: typeof components.VideoPlayer;
   }
 }
 export {};

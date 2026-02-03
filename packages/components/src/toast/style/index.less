@@ -1,0 +1,40 @@
+/* 与 Toast 组件保持一致的样式 */
+.fade-enter-active {
+  transition: all 0.3s ease;
+}
+.fade-leave-active {
+  transition: all 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.cs-toast {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  padding: 16px 12px;
+  text-align: center;
+  font-size: 17px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 24px;
+  z-index: 100000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 100px;
+  max-width: 240px;
+
+  p {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}

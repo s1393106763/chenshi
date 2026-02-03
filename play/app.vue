@@ -55,6 +55,8 @@
 
 <script lang="ts" setup>
 import { Button as ChenshiButton } from '@chenshi/components';
+import { Header as CsHeader } from '@chenshi/components';
+
 </script>
 
 <style scoped>

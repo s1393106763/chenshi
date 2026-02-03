@@ -1,0 +1,59 @@
+.cs-header {
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 44px;
+  box-sizing: border-box;
+
+  .left {
+    height: 100%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+
+    .back {
+      width: 28px;
+      height: 28px;
+      margin-left: 12px;
+      cursor: pointer;
+    }
+  }
+
+  .center {
+    flex: 1;
+    text-align: center;
+    color: #333;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.408px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .right {
+    width: 80px;
+  }
+}
+
+.cs-header.pc-header {
+  height: 75px;
+  min-height: 75px;
+  box-sizing: border-box;
+  padding-top: 8px;
+  background-color: unset !important;
+
+  .left {
+    .back {
+      margin-left: 0;
+      cursor: pointer;
+    }
+  }
+
+  .center {
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
